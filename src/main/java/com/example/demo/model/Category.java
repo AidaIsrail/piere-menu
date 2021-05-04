@@ -16,6 +16,9 @@ public class Category {
     @Column(name = "picture")
     private String pictureUrl;
 
+    public Category(){
+
+    }
 
     @Override
     public String toString() {

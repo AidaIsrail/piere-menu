@@ -32,6 +32,9 @@ public class Item {
     @Column(name = "discount")
     private double discount;
 
+    public  Item(){
+
+    }
 
     public Item(String name, String discription, String weight, Double price, String pictureUrl, Category category, double discount) {
         this.name = name;
